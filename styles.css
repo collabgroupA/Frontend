@@ -1,0 +1,101 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: -10px;
+}
+
+.login-form {
+  background: #a2e3ec;
+  padding: 45px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: calc(100% - 30px);
+  padding: 10px 15px;
+  padding-left: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #f20d0d;
+  outline: none;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #030303;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #563eee;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #d60d0d;
+}
+
+/* Additional styles for the "Go to homepage" link */
+.go-to-homepage {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.go-to-homepage a {
+  color: #9005fa;
+  text-decoration: none;
+}
+
+.go-to-homepage a:hover {
+  text-decoration: underline;
+}
